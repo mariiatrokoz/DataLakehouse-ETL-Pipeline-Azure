@@ -30,6 +30,14 @@ The project follows core data engineering principles such as:
 
 # Project Structure
 
+| Folder | Description |
+|---|---|
+| `adf/` | Azure Data Factory development artifacts (pipelines, datasets, linked services, triggers) |
+| `beehaven-datafactory-trokoz/` | Auto-generated ARM deployment templates |
+| `main` | Development branch |
+| `adf_publish` | Deployment/publish branch |
+
+Publish branch:
 ```text
 .
 ├── beehaven-datafactory-trokoz/
